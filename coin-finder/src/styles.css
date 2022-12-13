@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27, 27, 27);
+  text-align: center;
+  margin: 0;
+  color: white;
+  height: 300vh;
+  background-image: linear-gradient(rgb(22, 22, 22), rgb(50, 47, 54));
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+h1 {
+  margin: 8px;
+  padding: 8px;
+}
+h5 {
+  margin: 0;
+  color: grey;
+}
+h2 {
+  margin: 8px;
+  font-size: 140%;
+}
+p#desc {
+  font-size: 85%;
+  padding: 15px;
+  margin: 10px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 40px;
+}
+input {
+  border: 4px inset rgb(180, 180, 180);
+}
+footer {
+  background-color: darkgrey;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-style: italic;
+  height: 1.2rem;
+}
+
+ul {
+  text-align: left;
+}
+p#pic {
+  animation: fadeIn 2.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
