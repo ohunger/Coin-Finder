@@ -5,4 +5,4 @@ Webapp that uses coin gecko api to display info when searching for a specific cr
 The info displayed is the shortened names, a logo that is associated with the coin, the current price in usd and the website associated with thus coin.
 Some CSS work was done to make the display look great and in a flex vertical format. There is a description attached with each coin.
 
-If we had more time we would have made the links in the description work better and the uppercase/lowercase not be a problem.
+If we had more time we would have made the links in the description work better and the uppercase/lowercase not be a problem. We also could have shortened the desc to make more sense, or used a different method that allows displaying of multiple coins 
